@@ -35,6 +35,7 @@ namespace ConsoleApp1
             Console.WriteLine("\tDanyal");
             Test t = new Test();
             t.Hello();
+            Variables.Test();
             //Console.Beep();
 
         }
@@ -47,5 +48,41 @@ namespace ConsoleApp1
             Console.WriteLine("Yo from the \'Test\' class");
         }
     }
+
+    public class Variables
+    {
+        // public defualt construcotr just for reference
+        public Variables()
+        {
+
+        }
+        // intialize and declare an int varaible called age that will hold
+        // the value of 23.
+        // Since age is an int primitve type varialbe, then the value of 23,
+        // will be stored at the age varaible container in memory.
+
+        public static void Test()
+        {
+            int age = 23;
+            // created a long variable called bigNumber
+            long bigNumber = 90000000L;
+            Console.WriteLine($"Age variable value: {age}, and bigNumber value: {bigNumber}");
+
+            //Decimal datatypes are double by defualt
+            double negative = -55.20;
+            float precision = 5.000001F;
+            Console.WriteLine($"negative variable value: {negative}, and precision value: {precision}");
+            // good for currency values
+            decimal money = 14.99M;
+            Console.WriteLine($"negative variable value: {negative}, and precision value: {precision} and money value: {money}");
+
+            //int x = 20;
+            //int y = 19;
+            //int z = 18;
+
+            int x = 20, y = 19, z = 18;
+        }
+       
+     }
 }
 
