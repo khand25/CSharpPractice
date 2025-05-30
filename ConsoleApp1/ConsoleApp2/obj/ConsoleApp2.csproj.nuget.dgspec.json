@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shaamkhan/Desktop/CSharpPractice/NewProject/NewProject/NewProject.csproj": {}
+    "/Users/shaamkhan/Desktop/CSharpPractice/ConsoleApp1/ConsoleApp2/ConsoleApp2.csproj": {}
   },
   "projects": {
-    "/Users/shaamkhan/Desktop/CSharpPractice/NewProject/NewProject/NewProject.csproj": {
+    "/Users/shaamkhan/Desktop/CSharpPractice/ConsoleApp1/ConsoleApp2/ConsoleApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shaamkhan/Desktop/CSharpPractice/NewProject/NewProject/NewProject.csproj",
-        "projectName": "NewProject",
-        "projectPath": "/Users/shaamkhan/Desktop/CSharpPractice/NewProject/NewProject/NewProject.csproj",
+        "projectUniqueName": "/Users/shaamkhan/Desktop/CSharpPractice/ConsoleApp1/ConsoleApp2/ConsoleApp2.csproj",
+        "projectName": "ConsoleApp2",
+        "projectPath": "/Users/shaamkhan/Desktop/CSharpPractice/ConsoleApp1/ConsoleApp2/ConsoleApp2.csproj",
         "packagesPath": "/Users/shaamkhan/.nuget/packages/",
-        "outputPath": "/Users/shaamkhan/Desktop/CSharpPractice/NewProject/NewProject/obj/",
+        "outputPath": "/Users/shaamkhan/Desktop/CSharpPractice/ConsoleApp1/ConsoleApp2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/shaamkhan/.nuget/NuGet/NuGet.Config"

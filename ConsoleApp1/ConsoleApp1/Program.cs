@@ -33,8 +33,18 @@ namespace ConsoleApp1
             */
 
             Console.WriteLine("\tDanyal");
+            Test t = new Test();
+            t.Hello();
             //Console.Beep();
 
+        }
+    }
+
+    class Test
+    {
+        public void Hello()
+        {
+            Console.WriteLine("Yo from the \'Test\' class");
         }
     }
 }
