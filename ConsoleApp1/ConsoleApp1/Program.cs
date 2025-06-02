@@ -56,13 +56,13 @@ namespace ConsoleApp1
         {
 
         }
-        // intialize and declare an int varaible called age that will hold
-        // the value of 23.
-        // Since age is an int primitve type varialbe, then the value of 23,
-        // will be stored at the age varaible container in memory.
 
         public static void Test()
         {
+            // intialize and declare an int varaible called age that will hold
+            // the value of 23.
+            // Since age is an int primitve type varialbe, then the value of 23,
+            // will be stored at the age varaible container in memory.
             int age = 23;
             // created a long variable called bigNumber
             long bigNumber = 90000000L;
@@ -81,8 +81,17 @@ namespace ConsoleApp1
             //int z = 18;
 
             int x = 20, y = 19, z = 18;
+
+            /** Textual datatypes!! */
+            // string datatype
+            string name = "Danyal";
+            // char datatype
+            char letter = 'a';
+            Console.WriteLine($"Your name is {name}");
+            // Converting Strings and numbers!
+
         }
        
-     }
+     } //class: Variables
 }
 
