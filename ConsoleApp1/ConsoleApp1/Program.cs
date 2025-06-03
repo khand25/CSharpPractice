@@ -10,7 +10,7 @@ namespace ConsoleApp1
     class Program
     {
 
-
+        // Youtube tutorial link: https://www.youtube.com/@CoffeeNCode
 
         public static void Main(string[] args)
         {
@@ -146,6 +146,22 @@ namespace ConsoleApp1
             /*** 
             Var keyword
             */
+
+            // var keyword can be used for the compiler to implicitly recognize and
+            // figure out what a specific varaible's datatype will be if not given explicitly
+            var newAge = 43; //here newAge is a varaible that the compiler will implicitly
+                             // make it into an int based upon the special var keyword used
+            Console.WriteLine($"New age value {newAge}");
+
+            /**
+            Const keyword
+            */
+            // const keyword is used to make a varaible to NOT BE ABLE TO CHANGE ITS VALUE OR BE REASSIGNED TO A NEW VALUE AFTER BEING INTIALIZED.
+
+            const double pi = 3.14;
+            // code below won't compile as pi variable can be reassinged a new value as it is a constant varaible type
+            //pi = 4.5;
+            Console.WriteLine($"Pi value in Math: {pi}");
         }   //Test function 
        
      } //class: Variables
